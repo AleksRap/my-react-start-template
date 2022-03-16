@@ -1,7 +1,6 @@
 {
   "extends": [
-    "react-app",
-    "react-app/jest"
+    "react-app"
   ],
   "rules": {
     "semi": 2
@@ -10,7 +9,8 @@
     {
       "files": ["**/*.ts?(x)"],
       "rules": {
-        "import/prefer-default-export": 0
+        "import/prefer-default-export": 0,
+        "semi": "error"
       }
     }
   ]

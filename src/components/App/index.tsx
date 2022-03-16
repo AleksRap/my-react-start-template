@@ -7,4 +7,4 @@ export const App: FC = () => {
       <span>Hello world</span>
     </div>
   );
-}
+};

@@ -3,8 +3,11 @@
 @import 'assets/styles/fonts';
 @import 'assets/styles/fontello';
 
+$red: red;
 
 :root {
-  //--color-black: #000000;
-  //--color-white: #FFFFFF;
+  background-color: $red;
+
+  --color-black: #000;
+  --color-white: #FFF;
 }
